@@ -12,7 +12,7 @@ void selectionSort(int size,int *a){
 		int min_index=i;
 		for(j=i+1;j<size;j++){
 			// This loop iterates to run through the array.
-			if(a[in]>a[j]) {
+			if(a[min_index]>a[j]) {
 				// This condition is used check to all the adjacent elements of the array pairwise.
 				// if the first element is larger than the second element this condition is satisfied.
 				// as the condition is satisfied int intial index is replaced with 'j' as new min index
@@ -24,8 +24,8 @@ void selectionSort(int size,int *a){
 }
 int main()
 {
-	int x,f;
-	scanf("%d %d",&x, &f);
+	int x;
+	scanf("%d",&x);
 	int a[x];
 	int i,j;
 	for(i=0; i<x; i++){
