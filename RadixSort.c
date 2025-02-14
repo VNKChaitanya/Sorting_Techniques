@@ -12,7 +12,7 @@ void radixSort(int *a, int size){
 	int max_element= maximum(a,size); 
 	// finding the max element.
 	int digits_max= log10(max_element)+1;
-	// no. of digits of the max element( total passes for the radix sort)
+	// no. of digits of the max element( total passes for the radix sort).
 	int divider= 1;
 	// divider is used to divide the element to find the last digit.
 	int bucket[10][size];
