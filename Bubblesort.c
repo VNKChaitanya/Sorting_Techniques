@@ -11,7 +11,7 @@ void bubbleSort(int size,int *a){
 		//this loop iterates to increase the count of the each pass.
 		int f=0;
 		// Flag f is used to check if atleast 1 swap is done or not.
-		for(j=1;j<size-1;j++){
+		for(j=1;j<size;j++){
 			//this loop iterates to run through the array.
 			if(a[j-1]>a[j]) {
 				// This condition is used check to all the adjacent elements of the array pairwise.
@@ -29,8 +29,8 @@ void bubbleSort(int size,int *a){
 }
 int main()
 {
-	int x,f;
-	scanf("%d %d",&x, &f);
+	int x;
+	scanf("%d",&x);
 	int a[x];
 	int i,j;
 	for(i=0; i<x; i++){
