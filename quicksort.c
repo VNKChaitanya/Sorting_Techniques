@@ -24,26 +24,6 @@ int partition(int *a,int ind,int start,int end){
 	return e;
 }
 
-// int sekhar_partition(int* arr , int start , int end){
-//     int i = start , index = start;
-    
-//     while(i < end){
-//         if(arr[i] < arr[end]){
-//             int temp = arr[i];
-//             arr[i] = arr[index];
-//             arr[index] = arr[i];
-//             index++;
-//         }
-//         i++;
-//     }
-    
-//     arr[end] ^= arr[index];
-//     arr[index] ^= arr[end];
-//     arr[end] ^= arr[index];
-    
-//     return index;
-// }
-
 void quicksort(int *a,int start,int end){
 	if(start<end)
 	{
