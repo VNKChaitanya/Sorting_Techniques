@@ -4,7 +4,7 @@ void merge(int *left,int *right,int *a,int size){
     int l=0,r=0,i=0;
     while(r< right_size && l< left_size){
     	// loop used to merge the sorted arrays.
-        if(left[l]<right[r]){
+        if(left[l]>right[r]){
         	// copies the elements from right to a.
             a[i++]=right[r++];
         }
