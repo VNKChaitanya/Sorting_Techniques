@@ -9,7 +9,7 @@ void insertionsort(int *a,int size){
 		while(j>=0 && a[j]> temp){
 			//This loop is used to move all the elements from right to left.
 			a[j+1]=a[j];
-			j--;
+			j--; 
 		}
 		// inserting the copied integer in the new and suitable position for the array.
 		a[j+1]=temp;
