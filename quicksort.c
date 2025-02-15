@@ -49,6 +49,6 @@ int main(){
 		printf("%d ", arr[i]);
 	}
 	// time complexity average case-- O(nlogn)
-	// worst case -- o(n^2).
+	// worst case -- O(n^2).
 	// space O(1).
 }
