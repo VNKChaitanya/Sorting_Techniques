@@ -58,7 +58,7 @@ int main() {
 	for(i=0;i<x;i++){
 	    printf("%d ", a[i]);
 	}
-	// time complexity-- O(nlongn)
+	// time complexity-- O(nlogn)
 	// space complexity -- O(n)
 }
 
