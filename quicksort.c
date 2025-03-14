@@ -6,9 +6,9 @@ int partition(int *a,int ind,int start,int end){
 	int s=start, e= end;
 	while(s<e){
 		//this loop iterates till start becomes bigger than end.
-		while(a[s]<=key) s++;
+		while(s<end && a[s]<=key) s++;
 		// increments s till it finds an element bigger than key.
-		while(a[e]>key) e--;
+		while(e>= start && a[e]>key) e--;
 		// decrements e till it finds an element smaller than key.
 		if(s<e){
 			// swaps the elements satisfing the top 2 conditions.
